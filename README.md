@@ -1,53 +1,72 @@
 <!--
   Profile README for github.com/dat-rd
-  Flow: Hero (Name Field) → Currently exploring → Building → Trace → Links
-  Assets: assets/hero-dark.svg, assets/hero-light.svg
-  Principle: The profile creates curiosity, the repositories provide evidence.
+  Architecture: Hark Pro / Apple Neo-Minimalism Style
+  Flow: System Hero (Card HUD) → Core Vectors → Active Systems (Panels) → Provenance → Status & Contact
 -->
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Nguyễn Thành Đạt — Building software with AI, agents and modern engineering workflows." width="100%">
+  <img src="assets/hero-light.svg" alt="Nguyen Thanh Dat — Building software with AI, agents & modern engineering workflows." width="100%">
 </picture>
 
-<h3>Building software with AI, agents &amp; modern engineering workflows.</h3>
-<p><sub>Exploring the intersection of software · AI · enterprise systems.</sub></p>
+<br>
+
+`AI AGENTS` &nbsp;·&nbsp; `AI APPLICATIONS` &nbsp;·&nbsp; `SOFTWARE ENGINEERING` &nbsp;·&nbsp; `ENTERPRISE SYSTEMS`
 
 </div>
 
 <br>
 
-## Currently exploring
+### ✦ Active Systems &amp; Artifacts
 
-AI&nbsp;Agents&nbsp;↗ &nbsp;&nbsp; AI&nbsp;Applications&nbsp;↗ &nbsp;&nbsp; Software&nbsp;Engineering&nbsp;↗ &nbsp;&nbsp; Enterprise&nbsp;Systems&nbsp;↗
-
-<sub><i>A direction, not a list of credentials.</i></sub>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>CV AI</h4>
+      <p><code>AI × CAREER</code></p>
+      <p>Intelligent career orchestration platform. Evaluates, parses, and aligns resumes against target role specifications using structured LLM pipelines.</p>
+      <p><sub><code>Private • Preparing for open-source</code></sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>WaroTrans</h4>
+      <p><code>ENTERPRISE × ROBOTICS</code> &nbsp; <b>[IN PROGRESS]</b></p>
+      <p>Autonomous warehouse & fleet management system. Coordinates task workflows, workstations, buffer zones, and mobile robot operations.</p>
+      <p><sub><code>Graduation Thesis • Under active development</code></sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>AutoWash Pro</h4>
+      <p><code>BUSINESS × SOFTWARE</code></p>
+      <p>End-to-end commercial operations platform for automated car wash facilities. Features booking scheduling, dynamic loyalty algorithms, and queue flow.</p>
+      <p><sub><code>Enterprise Solution</code></sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>WellStudy</h4>
+      <p><code>WEB × LEARNING</code></p>
+      <p>Collaborative learning platform built with modern web architecture, state synchronisation, and modular study workflows.</p>
+      <p><sub><code>Web Application</code></sub></p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
-## Building
+### ✦ Trajectory &amp; Provenance
 
-**CV AI** &nbsp;—&nbsp; AI × Career<br>
-**WaroTrans** &nbsp;—&nbsp; Enterprise × Robotics &nbsp;<sub><i>in&nbsp;progress</i></sub><br>
-**AutoWash Pro** &nbsp;—&nbsp; Business × Software<br>
-**WellStudy** &nbsp;—&nbsp; Web × Learning
+* **FPT Software** &nbsp;—&nbsp; SAP ABAP &amp; Enterprise Systems (OJT) &nbsp;·&nbsp; <sub><i>Foundational exposure to ERP architectures, BAPIs, and transactional business invariants.</i></sub>
+* **FPT University** &nbsp;—&nbsp; Software Engineering (Bachelor of Science) &nbsp;·&nbsp; <sub><i>Core software architecture, algorithms, and distributed systems.</i></sub>
 
 <br>
 
-## Trace
-
-**FPT Software** &nbsp;—&nbsp; SAP&nbsp;ABAP · Enterprise&nbsp;Software<br>
-**FPT University** &nbsp;—&nbsp; Software Engineering
-
-<br>
-<br>
+---
 
 <div align="center">
 <sub>
-
-[X](https://x.com/xnguyenthanhdat) &nbsp;·&nbsp; [Email](mailto:thanhdat.rd.70369@gmail.com)
-
+  Available for Software Engineering &amp; AI Developer roles. &nbsp;•&nbsp; 
+  <a href="https://x.com/xnguyenthanhdat">X (Twitter)</a> &nbsp;•&nbsp; 
+  <a href="mailto:thanhdat.rd.70369@gmail.com">Email</a>
 </sub>
 </div>
