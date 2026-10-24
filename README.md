@@ -1,16 +1,19 @@
 <!--
   Profile README for github.com/dat-rd
-  Flow: Hero → Currently exploring → Building → Trace → Links
-  Hero assets: assets/hero-light.svg, assets/hero-dark.svg
-  Principle: the profile creates curiosity, the repositories provide evidence.
+  Flow: Hero (Name Field) → Currently exploring → Building → Trace → Links
+  Assets: assets/hero-dark.svg, assets/hero-light.svg
+  Principle: The profile creates curiosity, the repositories provide evidence.
 -->
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Nguyen Thanh Dat — Building software with AI, agents and modern engineering workflows. Exploring the intersection of software, AI, and enterprise systems." width="800">
+  <img src="assets/hero-light.svg" alt="Nguyễn Thành Đạt — Building software with AI, agents and modern engineering workflows." width="100%">
 </picture>
+
+<h3>Building software with AI, agents &amp; modern engineering workflows.</h3>
+<p><sub>Exploring the intersection of software · AI · enterprise systems.</sub></p>
 
 </div>
 
