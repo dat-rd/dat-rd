@@ -44,10 +44,10 @@
       <p><sub><code>Enterprise Solution</code></sub></p>
     </td>
     <td width="50%" valign="top">
-      <h4>WellStudy</h4>
-      <p><code>WEB × LEARNING</code></p>
-      <p>Collaborative learning platform built with modern web architecture, state synchronisation, and modular study workflows.</p>
-      <p><sub><code>Web Application</code></sub></p>
+      <h4>Used Bicycle Exchange</h4>
+      <p><code>MARKETPLACE × TRUST</code></p>
+      <p>Specialized sports bicycle marketplace featuring a trust-first escrow transaction workflow and verified inspection verification.</p>
+      <p><sub><a href="https://used-bicycle-exchange-fe.vercel.app">Live Demo ↗</a> &nbsp;•&nbsp; <a href="https://github.com/SWP-SportsBicycles/used-bicycle-exchange-FE">Repository ↗</a></sub></p>
     </td>
   </tr>
 </table>
