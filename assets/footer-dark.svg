@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="Status HUD: Open for SE &amp; AI Roles">
+<defs>
+  <clipPath id="fClip">
+    <rect x="10" y="8" width="1180" height="48" rx="16"/>
+  </clipPath>
+  <linearGradient id="fRim" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ABC0E4" stop-opacity="0.50"/>
+    <stop offset="35%" stop-color="#556985" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#1E2736" stop-opacity="0.10"/>
+  </linearGradient>
+</defs>
+<style>
+  .f { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .pulse-dot { animation: livePulse 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  @keyframes livePulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(0.85); } }
+  .halo { animation: ring 2.8s cubic-bezier(0, 0.2, 0.8, 1) infinite; transform-origin: center; }
+  @keyframes ring { 0% { r: 3.5px; opacity: 0.8; stroke-width: 1.5px; } 100% { r: 12px; opacity: 0; stroke-width: 0.5px; } }
+  @media (prefers-reduced-motion: reduce) { .pulse-dot, .halo { animation: none; } }
+</style>
+<g clip-path="url(#fClip)">
+  <image href="data:image/webp;base64,UklGRsYDAABXRUJQVlA4ILoDAADwKgCdASqwBEAAPj0ei0UiIYgKShAB4lpbuBKqnh1HTdrx2ydArudqdn8///1aZye01Av6zPnTxAFfcxzD2yptSFBafGO/bXFSo8IItNqHE1RZhHLvik3AqDHuyuRouGYvX1UHmnGr4x37a4qTwvZzBH+SmzMhVVphw1Uus844K99ybHU/OTcCoMwTVi4S4xc11add9Gi0dyJE9IfBfDQrgXIVHF6WzSSGbi+5OpasTaiAomMMbyZkWnxjfxdxP/1yXo7LJiL861pnQlp5ho4HYbblZ6Sm4FQZgBoANJesIqbar03oxPPPPPPQR2FZMskg5SkYD0s3zs+vLiOXfFJt/G7wiwLTHWGzOkIyD7mvvdxW0NqXTSIIAXZk5BJKizCOXfFJsxNigfmfMX0CJefqZx+fbReKiyoTPuhvsvxyiMVXqszehBAEwsMkVNfSekpuBTyTz0qpYPZJlesMfdDIAP76mzSwt5/+rv3f/Y9j/sOdq+NtTXiWkQNVpFOPhBREJZXjCtwj02QGhHXzkUChyI7oUdyFpFxg1kCdw/J1a4x+tnT8kZo3XsOUGcdWIwSdLeiO0VC4Kz978aacpRlV+pF8f7ffpecA7ckFbMjE1xN2/Q/s4c8ht3+N3WSVQFtFy122e3vrl+2m2/H6RRbVkE6XAA2qzp78qFS+Gla0TELUdv268CnFXRkuroV/jhv809qMV/frwtTx5oVTebUG45BTCmtx0qs33bdQ7QRugMPjxp1ZxVZZfEEZWFtWjGuK/glxScWyMyPeAAAACOyOhLAko9KPEJSU62ZZQODhRhblFYJc5Mxkj39WqclCv+6ro5GyUfiHtq8MaKxep+UvTBvGH5oq09e0LeGj20gEJdzp2XIVBe2IdYAcHHwu5uYLEAtnVlNqu0LJ7IT4kR5NWIDq/tQ5Sesl7Rm7AufRBaUxtPRMgg/mIeWbQWmAABZ0is2YOkJGRXftv2W1eHzyO7XZHrZjEKKFrzRF+BbBUm5HpYm2LGDBj+bl5mZYLuhSn9u3gUhH6n1N5KrwbM4stGUL6kioT4xO4HgAAAN7dkNc+VsLspyfacMcTqBnhznie4q+/znZGLcJZAcMQKG3PgGKwcPxIp2zHwvFy5mpKnSCcP4O56UqndF0EY1bVNKU1zPib9R0X6BsUNS8DbtOWoVPjLtO4+VSH8+NjWV0/8y+lsaKCRSZh1WQynROIcKU2d1sqHk5tYiO4sFFWNidnAUT2M1G2/DHRYUiqfhqzWbKaChf96GyAAA=" x="10" y="8" width="1180" height="48" preserveAspectRatio="none"/>
+  <rect x="10" y="8" width="1180" height="48" fill="#080C14" fill-opacity="0.18"/>
+</g>
+<rect x="10" y="8" width="1180" height="48" rx="16" fill="none" stroke="url(#fRim)" stroke-width="1.2"/>
+<g class="f" font-size="12" font-weight="500">
+  <g transform="translate(36, 32)">
+    <circle class="halo" cx="0" cy="0" r="3.5" fill="none" stroke="#3FB950"/>
+    <circle class="pulse-dot" cx="0" cy="0" r="4" fill="#3FB950"/>
+    <text x="16" y="4" fill="#E2E8F0" letter-spacing="0.4px">STATUS // OPEN FOR SE &amp; AI ROLES</text>
+  </g>
+  <g transform="translate(600.0, 36)" text-anchor="middle">
+    <text fill="#94A3B8" letter-spacing="0.5px">BASE // VIETNAM &#160;&#160;·&#160;&#160; TIMEZONE // ICT (UTC+7)</text>
+  </g>
+  <g transform="translate(1164, 36)" text-anchor="end">
+    <text fill="#B4C6FF" font-weight="600" letter-spacing="0.8px">DAT-RD // 2026</text>
+  </g>
+</g>
+</svg>

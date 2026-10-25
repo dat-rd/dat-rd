@@ -1,7 +1,7 @@
 <!--
   Profile README for github.com/dat-rd
-  Architecture: Hark Pro / Apple Neo-Minimalism Style
-  Flow: System Hero (Card HUD) → Core Vectors → Personal Manifesto → Provenance → Status & Contact
+  Architecture: Hark Pro / Apple Neo-Minimalism Design System
+  Flow: System Hero (Card HUD) → Core Vectors → Personal Manifesto → Provenance → Live Status HUD & Contact
 -->
 
 <div align="center">
@@ -32,14 +32,29 @@
 * **FPT Software** &nbsp;—&nbsp; SAP ABAP &amp; Enterprise Systems (OJT) &nbsp;·&nbsp; <sub><i>Hands-on exposure to ERP architecture, ABAP development, functional specifications, and real-world business workflows.</i></sub>
 * **FPT University** &nbsp;—&nbsp; Software Engineering (Bachelor of Science) &nbsp;·&nbsp; <sub><i>Core software architecture, algorithms, and distributed systems.</i></sub>
 
-<br>
-
----
+<br><br>
 
 <div align="center">
-<sub>
-  Available for Software Engineering &amp; AI Developer roles. &nbsp;•&nbsp; 
-  <a href="https://x.com/xnguyenthanhdat">X (Twitter)</a> &nbsp;•&nbsp; 
-  <a href="mailto:thanhdat.rd.70369@gmail.com">Email</a>
-</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-light.svg" alt="Status HUD: Open for SE & AI Roles" width="100%">
+</picture>
+
+<br><br>
+
+<a href="https://x.com/xnguyenthanhdat">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-twitter-dark.svg">
+    <img src="assets/btn-twitter-light.svg" alt="Twitter / X" height="34">
+  </picture>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:thanhdat.rd.70369@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg">
+    <img src="assets/btn-email-light.svg" alt="Email" height="34">
+  </picture>
+</a>
+
 </div>

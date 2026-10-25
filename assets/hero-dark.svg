@@ -5,15 +5,11 @@
   <clipPath id="cardClip">
     <rect x="12" y="12" width="1176" height="396" rx="24"/>
   </clipPath>
-
-  <!-- Specular Glass Rim Stroke -->
   <linearGradient id="rimStroke" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#ABC0E4" stop-opacity="0.55"/>
     <stop offset="25%" stop-color="#6B82A8" stop-opacity="0.30"/>
     <stop offset="100%" stop-color="#243144" stop-opacity="0.15"/>
   </linearGradient>
-
-  <!-- Pill Frosted Surface -->
   <linearGradient id="pillBg" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#202A3D" stop-opacity="0.88"/>
     <stop offset="100%" stop-color="#121824" stop-opacity="0.88"/>
@@ -22,96 +18,44 @@
     <stop offset="0%" stop-color="#8EA8D4" stop-opacity="0.6"/>
     <stop offset="100%" stop-color="#344663" stop-opacity="0.3"/>
   </linearGradient>
-
-  <!-- Diffuse Glow behind Pill -->
   <radialGradient id="pillAura" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#7397D4" stop-opacity="0.30"/>
     <stop offset="100%" stop-color="#7397D4" stop-opacity="0"/>
   </radialGradient>
 </defs>
-
 <style>
   .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Helvetica, Arial, sans-serif; }
   .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
-  
-  .pulse-dot {
-    animation: livePulse 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  }
-  @keyframes livePulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.45; transform: scale(0.85); }
-  }
-
-  .halo {
-    animation: ring 2.8s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-    transform-origin: center;
-  }
-  @keyframes ring {
-    0% { r: 4px; opacity: 0.8; stroke-width: 1.5px; }
-    100% { r: 14px; opacity: 0; stroke-width: 0.5px; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .pulse-dot, .halo { animation: none; }
-  }
+  .pulse-dot { animation: livePulse 2.8s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+  @keyframes livePulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(0.85); } }
+  .halo { animation: ring 2.8s cubic-bezier(0, 0.2, 0.8, 1) infinite; transform-origin: center; }
+  @keyframes ring { 0% { r: 4px; opacity: 0.8; stroke-width: 1.5px; } 100% { r: 14px; opacity: 0; stroke-width: 0.5px; } }
+  @media (prefers-reduced-motion: reduce) { .pulse-dot, .halo { animation: none; } }
 </style>
-
-<!-- 1. Hark Atmospheric Cloudscape Background (Clipped) -->
 <g clip-path="url(#cardClip)">
   <image href="data:image/webp;base64,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" x="12" y="12" width="1176" height="396" preserveAspectRatio="none"/>
-  
-  <!-- Subtle Vignette Scrim (Light, preserves vivid cloud shapes) -->
   <rect x="12" y="12" width="1176" height="396" fill="#080C14" fill-opacity="0.18"/>
-  
-  <!-- Diffuse Glow behind status pill -->
   <ellipse cx="600.0" cy="74" rx="230" ry="44" fill="url(#pillAura)"/>
 </g>
-
-<!-- 2. Specular Rim Stroke -->
 <rect x="12" y="12" width="1176" height="396" rx="24" fill="none" stroke="url(#rimStroke)" stroke-width="1.2"/>
-
-<!-- 3. Top Status Pill (Hark Pro Style) -->
 <g class="f" transform="translate(600.0, 74)">
   <rect x="-174" y="-19" width="348" height="38" rx="19" fill="url(#pillBg)" stroke="url(#pillStroke)" stroke-width="1"/>
-  
-  <!-- Live Signal Indicator -->
   <g transform="translate(-144, 0)">
     <circle class="halo" cx="0" cy="0" r="4" fill="none" stroke="#3FB950"/>
     <circle class="pulse-dot" cx="0" cy="0" r="4.2" fill="#3FB950"/>
   </g>
-  
-  <!-- Pill Label -->
-  <text x="-124" y="4" font-size="12" font-weight="500" fill="#E2E8F0" letter-spacing="0.4px">
-    SOFTWARE × AI × ENTERPRISE
-  </text>
-  <text x="146" y="4" text-anchor="end" font-size="11" font-weight="600" fill="#B4C6FF" letter-spacing="1px" class="mono">
-    DAT-RD
-  </text>
+  <text x="-124" y="4" font-size="12" font-weight="500" fill="#E2E8F0" letter-spacing="0.4px">SOFTWARE × AI × ENTERPRISE</text>
+  <text x="146" y="4" text-anchor="end" font-size="11" font-weight="600" fill="#B4C6FF" letter-spacing="1px" class="mono">DAT-RD</text>
 </g>
-
-<!-- 4. Main Headline Typography -->
 <g class="f" text-anchor="middle">
-  <text x="600.0" y="196" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="-1.2px">
-    Nguyen Thanh Dat
-  </text>
-  
-  <text x="600.0" y="254" font-size="22" font-weight="400" fill="#E2E8F0" letter-spacing="-0.3px">
-    Building software with AI, agents &amp; modern engineering workflows.
-  </text>
-
-  <text x="600.0" y="295" font-size="15" font-weight="400" fill="#A8B7CD" letter-spacing="0.2px">
-    Exploring the intersection of deterministic enterprise software &amp; autonomous AI systems.
-  </text>
+  <text x="600.0" y="196" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="-1.2px">Nguyen Thanh Dat</text>
+  <text x="600.0" y="254" font-size="22" font-weight="400" fill="#E2E8F0" letter-spacing="-0.3px">Building software with AI, agents &amp; modern engineering workflows.</text>
+  <text x="600.0" y="295" font-size="15" font-weight="400" fill="#A8B7CD" letter-spacing="0.2px">Exploring the intersection of deterministic enterprise software &amp; autonomous AI systems.</text>
 </g>
-
-<!-- 5. Hairline Divider for Metadata -->
 <line x1="48" y1="356" x2="1152" y2="356" stroke="#475569" stroke-opacity="0.35" stroke-width="1"/>
-
-<!-- 6. Bottom Metadata / Architecture Ticks -->
 <g class="f mono" font-size="11" fill="#94A3B8">
   <text x="48" y="382">SYS.STATUS // ACTIVE</text>
   <text x="600.0" y="382" text-anchor="middle">FPT UNIVERSITY → FPT SOFTWARE → AI SYSTEMS</text>
   <text x="1152" y="382" text-anchor="end">VIETNAM // 2026</text>
 </g>
-
 </svg>
